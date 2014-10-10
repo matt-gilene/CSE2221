@@ -1,0 +1,25 @@
+import components.naturalnumber.NaturalNumber2;
+
+
+public class Main {
+    public static void main(String[] args) {
+        NaturalNumber2 x = new NaturalNumber2(41), y = new NaturalNumber2(78);
+        NaturalNumber2[] swaped = swap3(x, y);
+        System.out.println(swaped[0]);
+        System.out.println(swaped[1]);
+    }
+
+    private static String[] swap2(String s1, String s2) {
+        String tmp = s1;
+        s1 = s2;
+        s2 = tmp;
+        return new String[] { s1, s2 };
+    }
+
+    private static NaturalNumber2[] swap3(NaturalNumber2 n1, NaturalNumber2 n2) {
+        NaturalNumber2 tmp = n1;
+        n1 = n2;
+        n2 = tmp;
+        return new NaturalNumber2[] { n1, n2 };
+    }
+}

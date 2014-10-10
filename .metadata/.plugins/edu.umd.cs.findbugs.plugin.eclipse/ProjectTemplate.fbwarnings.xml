@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1409793306151" analysisTimestamp="1409793293701" release="">
+  <Project projectName="ProjectTemplate">
+    <Jar>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\workspace\ProjectTemplate\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\workspace\ProjectTemplate\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files (x86)\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files (x86)\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_20\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\workspace\ProjectTemplate\src</SrcDir>
+    <SrcDir>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\workspace\ProjectTemplate\test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Sep 2014 21:14:53 -0400" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="1.8.0_20" vm_version="25.20-b23" cpu_seconds="16.69" clock_seconds="12.45" peak_mbytes="337.58" alloc_mbytes="455.50" gc_seconds="0.99">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="225" invocations="2" avgMicrosecondsPerInvocation="112556" maxMicrosecondsPerInvocation="118299" standardDeviationMircosecondsPerInvocation="5743"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="109" invocations="156" avgMicrosecondsPerInvocation="699" maxMicrosecondsPerInvocation="16951" standardDeviationMircosecondsPerInvocation="1640"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1409793306149" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

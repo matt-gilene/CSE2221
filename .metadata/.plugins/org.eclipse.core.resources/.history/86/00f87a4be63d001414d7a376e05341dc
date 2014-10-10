@@ -1,0 +1,164 @@
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+
+/**
+ * Put a short phrase describing the program here.
+ *
+ * @author Put your name here
+ *
+ */
+public final class CheckPassword {
+
+    /**
+     * Private constructor so this utility class cannot be instantiated.
+     */
+    private CheckPassword() {
+    }
+
+    /**
+     * Checks whether the given String satisfies the CSE department criteria for
+     * a valid password. Prints an appropriate message to the given output
+     * stream.
+     *
+     * @param s
+     *            the String to check
+     * @param out
+     *            the output stream
+     */
+    private static void checkPassword(String s, SimpleWriter out) {
+        boolean[] criteria = { false, false, false, false, false };
+        String[] criteriaNames = { "Length", "Upper Case", "Lower Case",
+                "Digit", "Symbol" };
+        final int MIN_LENGTH = 6;
+        if (s.length() >= MIN_LENGTH) {
+            criteria[0] = true;
+        }
+        if (containsUpperCaseLetter(s)) {
+            criteria[1] = true;
+        }
+        if (containsLowerCaseLetter(s)) {
+            criteria[2] = true;
+        }
+        if (containsDigit(s)) {
+            criteria[3] = true;
+        }
+        if (containsSymbol(s)) {
+            criteria[4] = true;
+        }
+        int met = 0;
+        for (boolean b : criteria) {
+            if (b) {
+                met++;
+            }
+        }
+        if (met < criteria.length - 1) {
+            out.println("Invalid password, " + (criteria.length - 1 - met)
+                    + " more reqirements needed");
+            for (int i = 0; i < criteria.length; i++) {
+                if (!criteria[i]) {
+                    out.println(String.format("%s requirement not met",
+                            criteriaNames[i]));
+                }
+            }
+        } else {
+            out.println("Valid Password");
+        }
+    }
+
+    /**
+     * Checks if the given String contains an upper case letter.
+     *
+     * @param s
+     *            the String to check
+     * @return true if s contains an upper case letter, false otherwise
+     */
+    private static boolean containsUpperCaseLetter(String s) {
+        for (char c : s.toCharArray()) {
+            if (Character.isUpperCase(c)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Checks if the given String contains an lower case letter.
+     *
+     * @param s
+     *            the String to check
+     * @return true if s contains an lower case letter, false otherwise
+     */
+    private static boolean containsLowerCaseLetter(String s) {
+        for (char c : s.toCharArray()) {
+            if (Character.isLowerCase(c)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Checks if the given String contains a digit.
+     *
+     * @param s
+     *            the String to check
+     * @return true if s contains a digit, false otherwise
+     */
+    private static boolean containsDigit(String s) {
+        for (char c : s.toCharArray()) {
+            if (Character.isDigit(c)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Checks if the given String contains a symbol.
+     *
+     * @param s
+     *            the String to check
+     * @return true if s contains a digit, false otherwise
+     */
+    private static boolean containsSymbol(String s) {
+        String specialChars = "!@#$%^&*()_-+={}[]:;,.?";
+        for (char c : s.toCharArray()) {
+            for (char c1 : specialChars.toCharArray()) {
+                if (c == c1) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments
+     */
+    public static void main(String[] args) {
+        SimpleReader in = new SimpleReader1L();
+        SimpleWriter out = new SimpleWriter1L();
+        /*
+         * Put your main program code here; it may call myMethod as shown
+         */
+        String s = "asdfghjkl;";
+        do {
+            out.print("Enter the password to check: ");
+            s = in.nextLine();
+            if (s.equals("")) {
+                continue;
+            }
+            checkPassword(s, out);
+        } while (!s.equals(""));
+        /*
+         * Close input and output streams
+         */
+        in.close();
+        out.close();
+    }
+}

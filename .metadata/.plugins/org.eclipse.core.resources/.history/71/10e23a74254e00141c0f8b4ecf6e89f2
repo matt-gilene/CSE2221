@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+import components.naturalnumber.NaturalNumber;
+import components.naturalnumber.NaturalNumber2;
+
+public class Main {
+    public static void main(String[] args) {
+        String x = "legends", y = "leaders";
+        System.out.println(Arrays.toString(new String[] { x, y }));
+        System.out.println();
+    }
+
+    private static String[] swap2(String s1, String s2) {
+        String tmp = s1;
+        s1 = s2;
+        s2 = tmp;
+        return new String[] { s1, s2 };
+    }
+
+    private static NaturalNumber2[] swap3(NaturalNumber2 n1, NaturalNumber2 n2) {
+        NaturalNumber2 tmp = n1;
+        n1 = n2;
+        n2 = tmp;
+        return new NaturalNumber2[] { n1, n2 };
+    }
+}

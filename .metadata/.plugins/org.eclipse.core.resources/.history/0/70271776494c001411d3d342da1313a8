@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+public class JunitTest {
+
+    @Test
+    public void test1() {
+        NaturalNumber n = new NaturalNumber2(1327);
+        NaturalNumber nExpected = new NaturalNumber2(1327);
+        NaturalNumber r = new NaturalNumber2(3);
+        NaturalNumber rExpected = new NaturalNumber2(3);
+        NaturalNumber rt = NaturalNumberRoot.root(n, r);
+        NaturalNumber rtExpected = new NaturalNumber2(10);
+        assertEquals(nExpected, n);
+        assertEquals(rExpected, r);
+        assertEquals(rtExpected, rt);
+    }
+
+}

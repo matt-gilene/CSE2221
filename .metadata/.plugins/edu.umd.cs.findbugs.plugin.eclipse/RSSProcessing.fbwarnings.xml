@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1412098608883" analysisTimestamp="1412098607145" release="">
+  <Project projectName="RSSProcessing">
+    <Jar>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\RSSProcessing\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\RSSProcessing\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre8\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\RSSProcessing\src</SrcDir>
+    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\RSSProcessing\test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="RSSProcessing">
+      <SourceLine classname="RSSProcessing" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Class>
+    <Method classname="RSSProcessing" name="processItem" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="RSSProcessing" start="71" end="88" startBytecode="0" endBytecode="104" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Method>
+    <LocalVariable name="desc" register="4" pc="173" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSProcessing" start="82" end="82" startBytecode="171" endBytecode="171" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <SourceLine classname="RSSProcessing" start="82" end="82" startBytecode="171" endBytecode="171" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="desc"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 30 Sep 2014 13:36:46 -0400" total_classes="1" referenced_classes="17" total_bugs="1" total_size="53" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="4.49" clock_seconds="1.74" peak_mbytes="261.65" alloc_mbytes="455.50" gc_seconds="0.03" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="53" priority_2="1">
+      <ClassStats class="RSSProcessing" sourceFile="RSSProcessing.java" interface="false" size="53" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="356" invocations="2" avgMicrosecondsPerInvocation="178477" maxMicrosecondsPerInvocation="212316" standardDeviationMircosecondsPerInvocation="33836"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="179" invocations="353" avgMicrosecondsPerInvocation="509" maxMicrosecondsPerInvocation="21252" standardDeviationMircosecondsPerInvocation="1583"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="79" invocations="5" avgMicrosecondsPerInvocation="15808" maxMicrosecondsPerInvocation="76840" standardDeviationMircosecondsPerInvocation="30516"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="74" invocations="17" avgMicrosecondsPerInvocation="4364" maxMicrosecondsPerInvocation="40835" standardDeviationMircosecondsPerInvocation="9458"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="57" invocations="353" avgMicrosecondsPerInvocation="164" maxMicrosecondsPerInvocation="14687" standardDeviationMircosecondsPerInvocation="872"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="42" invocations="30" avgMicrosecondsPerInvocation="1425" maxMicrosecondsPerInvocation="19971" standardDeviationMircosecondsPerInvocation="4638"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="37" invocations="66" avgMicrosecondsPerInvocation="571" maxMicrosecondsPerInvocation="3167" standardDeviationMircosecondsPerInvocation="651"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="22" invocations="7" avgMicrosecondsPerInvocation="3179" maxMicrosecondsPerInvocation="7489" standardDeviationMircosecondsPerInvocation="2080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="21" invocations="7" avgMicrosecondsPerInvocation="3081" maxMicrosecondsPerInvocation="6743" standardDeviationMircosecondsPerInvocation="1875"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="20" invocations="5" avgMicrosecondsPerInvocation="4193" maxMicrosecondsPerInvocation="10114" standardDeviationMircosecondsPerInvocation="3741"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1412098608880" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

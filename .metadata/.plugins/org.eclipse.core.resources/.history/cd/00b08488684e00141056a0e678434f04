@@ -1,0 +1,13 @@
+import components.naturalnumber.NaturalNumber2;
+
+public class Main {
+    public static void main(String[] args) {
+        String str1 = "hello";
+        test2(str1);
+        System.out.println(str1);
+    }
+    
+    private static void test2(String s) {
+        s.toUpperCase();
+    }
+}

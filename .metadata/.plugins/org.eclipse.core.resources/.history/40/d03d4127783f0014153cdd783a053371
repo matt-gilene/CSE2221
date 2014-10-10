@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        double newEstimate = Math.pow(14, -5)
+                * Math.pow(102329, 1)
+                * Math.pow(1936, (double)1/2)
+                * Math.pow(z, );
+    }
+}

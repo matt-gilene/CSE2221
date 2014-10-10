@@ -1,0 +1,48 @@
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println(root(47226, 5));
+    }
+
+    /**
+     * Returns {@code n} to the power {@code p}.
+     *
+     * @param n
+     *            the number to which we want to apply the power
+     * @param p
+     *            the power
+     * @return the number to the power
+     * @requires Integer.MIN_VALUE <= n ^ (p) <= Integer.MAX_VALUE and p >= 0
+     * @ensures power = n ^ (p)
+     */
+    private static int power(int n, int p) {
+        return (int) Math.pow(n, p);
+    }
+
+    /**
+     * Returns the {@code r}-th root of {@code n}.
+     *
+     * @param n
+     *            the number to which we want to apply the root
+     * @param r
+     *            the root
+     * @return the root of the number
+     * @requires n >= 0 and r > 0
+     * @ensures root ^ (r) <= n < (root + 1) ^ (r)
+     */
+    private static int root(int n, int r) {
+        int low = 0;
+        int high = n;
+        int guess = 0;
+        while (low <= high) {
+            guess = (low + high) / 2;
+            int guess2 = power(guess, r);
+            if (guess2 < n) {
+                low = guess + 1;
+            } else {
+                high = guess - 1;
+            }
+        }
+        return high;
+    }
+}

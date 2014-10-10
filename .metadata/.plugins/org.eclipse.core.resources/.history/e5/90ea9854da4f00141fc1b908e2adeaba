@@ -1,0 +1,16 @@
+public class Main {
+    /**
+     * Returns {@code n} to the power {@code p}.
+     * 
+     * @param n
+     *            the number to which we want to apply the power
+     * @param p
+     *            the power
+     * @return the number to the power
+     * @requires Integer.MIN_VALUE <= n ^ (p) <= Integer.MAX_VALUE and p >= 0
+     * @ensures power = n ^ (p)
+     */
+    private static int power(int n, int p) {
+        
+    }
+}

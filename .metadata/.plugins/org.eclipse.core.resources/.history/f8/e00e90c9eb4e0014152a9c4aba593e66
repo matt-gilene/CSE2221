@@ -1,0 +1,14 @@
+import components.naturalnumber.NaturalNumber;
+import components.naturalnumber.NaturalNumber2;
+
+public class Main {
+    public static void main(String[] args) {
+        NaturalNumber num1 = new NaturalNumber2(17);
+        test3(num1);
+        System.out.println(num1);
+    }
+
+    private static void test3(NaturalNumber n) {
+        n.increment();
+    }
+}
