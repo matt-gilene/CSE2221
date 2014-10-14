@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.0" sequence="11" timestamp="1412113934038" analysisTimestamp="1412113933674" release="">
+<BugCollection version="3.0.0" sequence="1" timestamp="1413318639251" analysisTimestamp="1413318639115" release="">
   <Project projectName="Oddity">
-    <Jar>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Oddity\bin\Oddity.class</Jar>
-    <AuxClasspathEntry>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Oddity\bin</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\components.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Program Files (x86)\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Program Files (x86)\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_20\lib\rt.jar</AuxClasspathEntry>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Oddity\src</SrcDir>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Oddity\test</SrcDir>
+    <Jar>C:\Users\Matt\Documents\GitHub\CSE2221\Oddity\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Documents\GitHub\CSE2221\Oddity\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre8\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Matt\Documents\GitHub\CSE2221\Oddity\src</SrcDir>
     <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Tue, 30 Sep 2014 17:52:13 -0400" total_classes="1" referenced_classes="11" total_bugs="0" total_size="9" num_packages="1" java_version="1.8.0_20" vm_version="25.20-b23" cpu_seconds="1.42" clock_seconds="0.37" peak_mbytes="357.79" alloc_mbytes="455.50" gc_seconds="0.02">
+  <FindBugsSummary timestamp="Tue, 14 Oct 2014 16:30:39 -0400" total_classes="1" referenced_classes="9" total_bugs="0" total_size="9" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="0.20" clock_seconds="0.14" peak_mbytes="462.58" alloc_mbytes="455.50" gc_seconds="0.01">
     <PackageStats package="" total_bugs="0" total_types="1" total_size="9">
       <ClassStats class="Oddity" sourceFile="Oddity.java" interface="false" size="9" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="126" invocations="295" avgMicrosecondsPerInvocation="429" maxMicrosecondsPerInvocation="17927" standardDeviationMircosecondsPerInvocation="1212"/>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="71" invocations="2" avgMicrosecondsPerInvocation="35905" maxMicrosecondsPerInvocation="60476" standardDeviationMircosecondsPerInvocation="24571"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="37" invocations="295" avgMicrosecondsPerInvocation="126" maxMicrosecondsPerInvocation="443" standardDeviationMircosecondsPerInvocation="93"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="20" invocations="11" avgMicrosecondsPerInvocation="1908" maxMicrosecondsPerInvocation="9897" standardDeviationMircosecondsPerInvocation="2794"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="35" avgMicrosecondsPerInvocation="528" maxMicrosecondsPerInvocation="1339" standardDeviationMircosecondsPerInvocation="351"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="52" invocations="2" avgMicrosecondsPerInvocation="26196" maxMicrosecondsPerInvocation="46297" standardDeviationMircosecondsPerInvocation="20101"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="45" invocations="290" avgMicrosecondsPerInvocation="156" maxMicrosecondsPerInvocation="2649" standardDeviationMircosecondsPerInvocation="304"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="11" invocations="290" avgMicrosecondsPerInvocation="40" maxMicrosecondsPerInvocation="115" standardDeviationMircosecondsPerInvocation="12"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1412113381359" release="" codeSize="0" numClasses="0"/>
-    <AppVersion sequence="1" timestamp="1412113381365" release="" codeSize="6" numClasses="1"/>
-    <AppVersion sequence="2" timestamp="1412113453333" release="" codeSize="17" numClasses="1"/>
-    <AppVersion sequence="3" timestamp="1412113464624" release="" codeSize="17" numClasses="1"/>
-    <AppVersion sequence="4" timestamp="1412113664596" release="" codeSize="9" numClasses="1"/>
-    <AppVersion sequence="5" timestamp="1412113699195" release="" codeSize="10" numClasses="1"/>
-    <AppVersion sequence="6" timestamp="1412113791768" release="" codeSize="10" numClasses="1"/>
-    <AppVersion sequence="7" timestamp="1412113812187" release="" codeSize="10" numClasses="1"/>
-    <AppVersion sequence="8" timestamp="1412113834603" release="" codeSize="10" numClasses="1"/>
-    <AppVersion sequence="9" timestamp="1412113848086" release="" codeSize="10" numClasses="1"/>
-    <AppVersion sequence="10" timestamp="1412113860117" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="0" timestamp="1413318639251" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

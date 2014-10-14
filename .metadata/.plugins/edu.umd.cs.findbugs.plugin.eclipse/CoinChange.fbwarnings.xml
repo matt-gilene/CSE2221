@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.0" sequence="0" timestamp="-1" analysisTimestamp="1411506874132" release="">
-  <Project>
+<BugCollection version="3.0.0" sequence="1" timestamp="1413318606213" analysisTimestamp="1413318606037" release="">
+  <Project projectName="CoinChange">
+    <Jar>C:\Users\Matt\Documents\GitHub\CSE2221\CoinChange\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Documents\GitHub\CSE2221\CoinChange\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre8\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Matt\Documents\GitHub\CSE2221\CoinChange\src</SrcDir>
     <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Tue, 23 Sep 2014 17:14:34 -0400" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="1.8.0_20" vm_version="25.20-b23" cpu_seconds="0.00" clock_seconds="0.00" peak_mbytes="283.73" alloc_mbytes="455.50" gc_seconds="0.00">
-    <FindBugsProfile></FindBugsProfile>
+  <FindBugsSummary timestamp="Tue, 14 Oct 2014 16:30:06 -0400" total_classes="2" referenced_classes="11" total_bugs="0" total_size="47" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="0.42" clock_seconds="0.18" peak_mbytes="458.58" alloc_mbytes="455.50" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="47">
+      <ClassStats class="CoinChange1" sourceFile="CoinChange1.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="CoinChange2" sourceFile="CoinChange2.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="59" invocations="316" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="9543" standardDeviationMircosecondsPerInvocation="609"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="46" invocations="2" avgMicrosecondsPerInvocation="23134" maxMicrosecondsPerInvocation="39083" standardDeviationMircosecondsPerInvocation="15949"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="14" invocations="316" avgMicrosecondsPerInvocation="45" maxMicrosecondsPerInvocation="231" standardDeviationMircosecondsPerInvocation="19"/>
+    </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
-  <History></History>
+  <History>
+    <AppVersion sequence="0" timestamp="1413318606213" release="" codeSize="0" numClasses="0"/>
+  </History>
 </BugCollection>

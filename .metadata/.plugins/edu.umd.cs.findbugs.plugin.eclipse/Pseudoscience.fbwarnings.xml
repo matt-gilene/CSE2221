@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.0" sequence="1" timestamp="1411486083437" analysisTimestamp="1411486081477" release="">
+<BugCollection version="3.0.0" sequence="1" timestamp="1413318655621" analysisTimestamp="1413318655389" release="">
   <Project projectName="Pseudoscience">
-    <Jar>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Pseudoscience\bin</Jar>
-    <AuxClasspathEntry>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Pseudoscience\bin</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\components.jar</AuxClasspathEntry>
+    <Jar>C:\Users\Matt\Documents\GitHub\CSE2221\Pseudoscience\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Documents\GitHub\CSE2221\Pseudoscience\bin</AuxClasspathEntry>
     <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
     <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Program Files\Java\jre8\lib\rt.jar</AuxClasspathEntry>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Pseudoscience\src</SrcDir>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Pseudoscience\test</SrcDir>
+    <SrcDir>C:\Users\Matt\Documents\GitHub\CSE2221\Pseudoscience\src</SrcDir>
     <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Tue, 23 Sep 2014 11:28:01 -0400" total_classes="2" referenced_classes="16" total_bugs="0" total_size="106" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="5.21" clock_seconds="1.96" peak_mbytes="259.32" alloc_mbytes="455.50" gc_seconds="0.07">
+  <FindBugsSummary timestamp="Tue, 14 Oct 2014 16:30:55 -0400" total_classes="2" referenced_classes="12" total_bugs="0" total_size="106" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="0.55" clock_seconds="0.23" peak_mbytes="464.29" alloc_mbytes="455.50" gc_seconds="0.01">
     <PackageStats package="" total_bugs="0" total_types="2" total_size="106">
       <ClassStats class="ABCDGuesser1" sourceFile="ABCDGuesser1.java" interface="false" size="57" bugs="0"/>
       <ClassStats class="ABCDGuesser2" sourceFile="ABCDGuesser2.java" interface="false" size="49" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="472" invocations="2" avgMicrosecondsPerInvocation="236469" maxMicrosecondsPerInvocation="390037" standardDeviationMircosecondsPerInvocation="153568"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="154" invocations="324" avgMicrosecondsPerInvocation="478" maxMicrosecondsPerInvocation="24416" standardDeviationMircosecondsPerInvocation="1728"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="141" invocations="27" avgMicrosecondsPerInvocation="5233" maxMicrosecondsPerInvocation="80248" standardDeviationMircosecondsPerInvocation="16552"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="92" invocations="66" avgMicrosecondsPerInvocation="1406" maxMicrosecondsPerInvocation="59910" standardDeviationMircosecondsPerInvocation="7302"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="83" invocations="324" avgMicrosecondsPerInvocation="258" maxMicrosecondsPerInvocation="19583" standardDeviationMircosecondsPerInvocation="1501"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="77" invocations="6" avgMicrosecondsPerInvocation="12978" maxMicrosecondsPerInvocation="74868" standardDeviationMircosecondsPerInvocation="27688"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ClassContextClassAnalysisEngine" totalMilliseconds="61" invocations="17" avgMicrosecondsPerInvocation="3596" maxMicrosecondsPerInvocation="60999" standardDeviationMircosecondsPerInvocation="14350"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="61" invocations="6" avgMicrosecondsPerInvocation="10175" maxMicrosecondsPerInvocation="51810" standardDeviationMircosecondsPerInvocation="18844"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="56" invocations="16" avgMicrosecondsPerInvocation="3509" maxMicrosecondsPerInvocation="29940" standardDeviationMircosecondsPerInvocation="7164"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="56" invocations="6" avgMicrosecondsPerInvocation="9355" maxMicrosecondsPerInvocation="36308" standardDeviationMircosecondsPerInvocation="12768"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="51" invocations="314" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="2598" standardDeviationMircosecondsPerInvocation="309"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="45" invocations="2" avgMicrosecondsPerInvocation="22532" maxMicrosecondsPerInvocation="37833" standardDeviationMircosecondsPerInvocation="15301"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="18" invocations="6" avgMicrosecondsPerInvocation="3009" maxMicrosecondsPerInvocation="12361" standardDeviationMircosecondsPerInvocation="4615"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="13" invocations="314" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="450" standardDeviationMircosecondsPerInvocation="27"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1411486083437" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1413318655621" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

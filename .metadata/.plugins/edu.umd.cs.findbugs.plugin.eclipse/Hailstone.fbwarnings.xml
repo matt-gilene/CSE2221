@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.0" sequence="1" timestamp="1412687716902" analysisTimestamp="1412687715105" release="">
+<BugCollection version="3.0.0" sequence="1" timestamp="1413318612177" analysisTimestamp="1413318611932" release="">
   <Project projectName="Hailstone">
-    <Jar>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Hailstone\bin</Jar>
-    <AuxClasspathEntry>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Hailstone\bin</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\components.jar</AuxClasspathEntry>
+    <Jar>C:\Users\Matt\Documents\GitHub\CSE2221\Hailstone\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Documents\GitHub\CSE2221\Hailstone\bin</AuxClasspathEntry>
     <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
     <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Program Files\Java\jre8\lib\rt.jar</AuxClasspathEntry>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Hailstone\src</SrcDir>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\Hailstone\test</SrcDir>
+    <SrcDir>C:\Users\Matt\Documents\GitHub\CSE2221\Hailstone\src</SrcDir>
     <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Tue, 7 Oct 2014 09:15:14 -0400" total_classes="6" referenced_classes="20" total_bugs="0" total_size="187" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="5.85" clock_seconds="1.80" peak_mbytes="287.98" alloc_mbytes="455.50" gc_seconds="0.07">
+  <FindBugsSummary timestamp="Tue, 14 Oct 2014 16:30:11 -0400" total_classes="6" referenced_classes="16" total_bugs="0" total_size="187" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="0.87" clock_seconds="0.25" peak_mbytes="459.32" alloc_mbytes="455.50" gc_seconds="0.01">
     <PackageStats package="" total_bugs="0" total_types="6" total_size="187">
       <ClassStats class="Hailstone1" sourceFile="Hailstone1.java" interface="false" size="25" bugs="0"/>
       <ClassStats class="Hailstone2" sourceFile="Hailstone2.java" interface="false" size="28" bugs="0"/>
@@ -23,20 +21,14 @@
       <ClassStats class="HailstoneRecursive" sourceFile="HailstoneRecursive.java" interface="false" size="24" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="569" invocations="2" avgMicrosecondsPerInvocation="284965" maxMicrosecondsPerInvocation="399677" standardDeviationMircosecondsPerInvocation="114712"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="254" invocations="323" avgMicrosecondsPerInvocation="789" maxMicrosecondsPerInvocation="95746" standardDeviationMircosecondsPerInvocation="5587"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="88" invocations="323" avgMicrosecondsPerInvocation="273" maxMicrosecondsPerInvocation="25530" standardDeviationMircosecondsPerInvocation="1836"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="75" invocations="18" avgMicrosecondsPerInvocation="4221" maxMicrosecondsPerInvocation="72868" standardDeviationMircosecondsPerInvocation="16649"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="47" invocations="82" avgMicrosecondsPerInvocation="576" maxMicrosecondsPerInvocation="8283" standardDeviationMircosecondsPerInvocation="1027"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="45" invocations="20" avgMicrosecondsPerInvocation="2262" maxMicrosecondsPerInvocation="18810" standardDeviationMircosecondsPerInvocation="4472"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="44" invocations="20" avgMicrosecondsPerInvocation="2228" maxMicrosecondsPerInvocation="22842" standardDeviationMircosecondsPerInvocation="6199"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="34" invocations="31" avgMicrosecondsPerInvocation="1099" maxMicrosecondsPerInvocation="26728" standardDeviationMircosecondsPerInvocation="4722"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="32" invocations="18" avgMicrosecondsPerInvocation="1779" maxMicrosecondsPerInvocation="10100" standardDeviationMircosecondsPerInvocation="2501"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="31" invocations="18" avgMicrosecondsPerInvocation="1740" maxMicrosecondsPerInvocation="8702" standardDeviationMircosecondsPerInvocation="2116"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="61" invocations="313" avgMicrosecondsPerInvocation="196" maxMicrosecondsPerInvocation="11054" standardDeviationMircosecondsPerInvocation="678"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="48" invocations="2" avgMicrosecondsPerInvocation="24077" maxMicrosecondsPerInvocation="40523" standardDeviationMircosecondsPerInvocation="16446"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="18" invocations="313" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="442" standardDeviationMircosecondsPerInvocation="32"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="12" invocations="275" avgMicrosecondsPerInvocation="43" maxMicrosecondsPerInvocation="676" standardDeviationMircosecondsPerInvocation="70"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1412687716902" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1413318612177" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

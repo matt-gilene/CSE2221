@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.0" sequence="1" timestamp="1411676320401" analysisTimestamp="1411676293634" release="">
+<BugCollection version="3.0.0" sequence="1" timestamp="1413318675344" analysisTimestamp="1413318675168" release="">
   <Project projectName="XMLTreeExploration">
-    <Jar>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\XMLTreeExploration\bin</Jar>
-    <AuxClasspathEntry>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\XMLTreeExploration\bin</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Users\Matt\Box Sync\2014-2015-Spring\CSE 2221\components.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Program Files (x86)\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Program Files (x86)\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_20\lib\rt.jar</AuxClasspathEntry>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\XMLTreeExploration\src</SrcDir>
-    <SrcDir>C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace\XMLTreeExploration\test</SrcDir>
+    <Jar>C:\Users\Matt\Documents\GitHub\CSE2221\XMLTreeExploration\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Matt\Documents\GitHub\CSE2221\XMLTreeExploration\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\EclipseOSU\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre8\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Matt\Documents\GitHub\CSE2221\XMLTreeExploration\src</SrcDir>
     <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Thu, 25 Sep 2014 16:18:02 -0400" total_classes="1" referenced_classes="18" total_bugs="0" total_size="44" num_packages="1" java_version="1.8.0_20" vm_version="25.20-b23" cpu_seconds="97.34" clock_seconds="26.77" peak_mbytes="306.84" alloc_mbytes="455.50" gc_seconds="3.67">
+  <FindBugsSummary timestamp="Tue, 14 Oct 2014 16:31:15 -0400" total_classes="1" referenced_classes="12" total_bugs="0" total_size="44" num_packages="1" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="0.42" clock_seconds="0.18" peak_mbytes="465.86" alloc_mbytes="455.50" gc_seconds="0.01">
     <PackageStats package="" total_bugs="0" total_types="1" total_size="44">
       <ClassStats class="XMLTreeExploration" sourceFile="XMLTreeExploration.java" interface="false" size="44" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1013" invocations="2" avgMicrosecondsPerInvocation="506896" maxMicrosecondsPerInvocation="647902" standardDeviationMircosecondsPerInvocation="141006"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="654" invocations="362" avgMicrosecondsPerInvocation="1808" maxMicrosecondsPerInvocation="70305" standardDeviationMircosecondsPerInvocation="5347"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="218" invocations="18" avgMicrosecondsPerInvocation="12140" maxMicrosecondsPerInvocation="58283" standardDeviationMircosecondsPerInvocation="15904"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="178" invocations="362" avgMicrosecondsPerInvocation="494" maxMicrosecondsPerInvocation="49658" standardDeviationMircosecondsPerInvocation="2835"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="172" invocations="66" avgMicrosecondsPerInvocation="2606" maxMicrosecondsPerInvocation="15960" standardDeviationMircosecondsPerInvocation="3308"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="129" invocations="32" avgMicrosecondsPerInvocation="4049" maxMicrosecondsPerInvocation="97302" standardDeviationMircosecondsPerInvocation="16867"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="111" invocations="4" avgMicrosecondsPerInvocation="27862" maxMicrosecondsPerInvocation="105247" standardDeviationMircosecondsPerInvocation="44685"/>
-      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="74" invocations="329" avgMicrosecondsPerInvocation="226" maxMicrosecondsPerInvocation="4030" standardDeviationMircosecondsPerInvocation="433"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="66" invocations="18" avgMicrosecondsPerInvocation="3712" maxMicrosecondsPerInvocation="24021" standardDeviationMircosecondsPerInvocation="6026"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="61" invocations="4" avgMicrosecondsPerInvocation="15373" maxMicrosecondsPerInvocation="22592" standardDeviationMircosecondsPerInvocation="6646"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="57" invocations="317" avgMicrosecondsPerInvocation="182" maxMicrosecondsPerInvocation="8909" standardDeviationMircosecondsPerInvocation="572"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="43" invocations="2" avgMicrosecondsPerInvocation="21677" maxMicrosecondsPerInvocation="36758" standardDeviationMircosecondsPerInvocation="15081"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="13" invocations="317" avgMicrosecondsPerInvocation="41" maxMicrosecondsPerInvocation="134" standardDeviationMircosecondsPerInvocation="16"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="12" invocations="64" avgMicrosecondsPerInvocation="191" maxMicrosecondsPerInvocation="6261" standardDeviationMircosecondsPerInvocation="768"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1411676320395" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1413318675344" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

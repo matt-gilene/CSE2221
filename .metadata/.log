@@ -6579,3 +6579,166 @@ java.lang.ArrayIndexOutOfBoundsException: 1034
 !MESSAGE components.simplewriter.SimpleWriter1L
 !SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:14:25.976
 !MESSAGE components.naturalnumber.NaturalNumber2
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:06.211
+!MESSAGE The following classes needed for FindBugs analysis on project CoinChange were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:06.211
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:06.211
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:06.211
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:06.211
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:12.174
+!MESSAGE The following classes needed for FindBugs analysis on project Hailstone were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:12.174
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:12.174
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:12.174
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:12.174
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:17.604
+!MESSAGE The following classes needed for FindBugs analysis on project HailstoneRevisited were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:17.604
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:17.604
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:17.604
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:17.604
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:17.604
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:17.604
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:22.196
+!MESSAGE The following classes needed for FindBugs analysis on project HelloJack were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:22.196
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:22.196
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:22.196
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:22.196
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:28.234
+!MESSAGE The following classes needed for FindBugs analysis on project MonteCarloEstimation were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:28.234
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:28.234
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:28.234
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:28.234
+!MESSAGE components.simplereader.SimpleReader
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:28.234
+!MESSAGE components.random.Random1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:28.234
+!MESSAGE components.random.Random
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:33.882
+!MESSAGE The following classes needed for FindBugs analysis on project Newton were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:33.882
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:33.882
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:33.882
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:33.882
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:39.249
+!MESSAGE The following classes needed for FindBugs analysis on project Oddity were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:39.249
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:39.249
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:45.678
+!MESSAGE The following classes needed for FindBugs analysis on project PasswordChecker were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:45.678
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:45.678
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:45.678
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:45.678
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:30:55.618
+!MESSAGE The following classes needed for FindBugs analysis on project Pseudoscience were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:55.619
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:55.619
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:55.619
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:30:55.619
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:31:01.454
+!MESSAGE The following classes needed for FindBugs analysis on project RSSAggregator were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:01.454
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:01.454
+!MESSAGE components.xmltree.XMLTree
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:01.454
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:01.454
+!MESSAGE components.xmltree.XMLTree1
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:01.454
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:01.454
+!MESSAGE components.simplereader.SimpleReader
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:31:05.648
+!MESSAGE The following classes needed for FindBugs analysis on project RSSProcessing were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:05.648
+!MESSAGE components.xmltree.XMLTree
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:05.648
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:05.648
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:05.648
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:05.648
+!MESSAGE components.simplereader.SimpleReader
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:05.648
+!MESSAGE components.xmltree.XMLTree1
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:31:10.522
+!MESSAGE The following classes needed for FindBugs analysis on project RSSReader were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:10.522
+!MESSAGE components.xmltree.XMLTree
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:10.522
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:10.522
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:10.522
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:10.522
+!MESSAGE components.simplereader.SimpleReader
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:10.522
+!MESSAGE components.xmltree.XMLTree1
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-14 16:31:15.341
+!MESSAGE The following classes needed for FindBugs analysis on project XMLTreeExploration were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
+!MESSAGE components.xmltree.XMLTree
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
+!MESSAGE components.simplewriter.SimpleWriter
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
+!MESSAGE components.simplereader.SimpleReader1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
+!MESSAGE components.xmltree.XMLTree1
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
+!MESSAGE components.simplereader.SimpleReader
