@@ -12,6 +12,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Matt\Documents\GitHub\CSE2221"/>
 			<item value="C:\Users\Matt\Google Drive\2014-2015-Spring\CSE 2221\workspace"/>
 			<item value="C:\Users\Matt\Desktop"/>
 		</list>

@@ -6742,3 +6742,645 @@ java.lang.ArrayIndexOutOfBoundsException: 1034
 !MESSAGE components.xmltree.XMLTree1
 !SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-14 16:31:15.341
 !MESSAGE components.simplereader.SimpleReader
+!SESSION 2014-10-16 16:15:17.548 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-16 16:15:47.219
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.pde.core 4 0 2014-10-16 16:17:37.952
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:604)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:525)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(PluginModelManager.java:874)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(PluginRegistry.java:110)
+	at de.tobject.findbugs.builder.PDEClassPathGenerator.createPluginClassPath(PDEClassPathGenerator.java:205)
+	at de.tobject.findbugs.builder.PDEClassPathGenerator.computeClassPath(PDEClassPathGenerator.java:74)
+	at de.tobject.findbugs.builder.FindBugsWorker.createAuxClasspath(FindBugsWorker.java:509)
+	at de.tobject.findbugs.builder.FindBugsWorker.work(FindBugsWorker.java:183)
+	at de.tobject.findbugs.builder.FindBugsBuilder$StartedFromBuilderJob.runWithProgress(FindBugsBuilder.java:214)
+	at de.tobject.findbugs.FindBugsJob.run(FindBugsJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Configuration directory does not exist: C:\Users\Matt\.eclipse\org.eclipse.platform_4.4.0_248562372_win32_win32_x86_64\configuration\
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2014-10-16 16:17:37.955
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2014-10-16 16:17:37.955
+!MESSAGE Configuration directory does not exist: C:\Users\Matt\.eclipse\org.eclipse.platform_4.4.0_248562372_win32_win32_x86_64\configuration\
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 1 0 2014-10-16 16:17:38.868
+!MESSAGE creating new bug collection: C:\Users\Matt\Documents\GitHub\CSE2221\.metadata\.plugins\edu.umd.cs.findbugs.plugin.eclipse\ArraysAndReferences.fbwarnings.xml
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:17:46.458
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:17:46.458
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:17:46.458
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:17:46.458
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:17:46.458
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5757ef9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d2db15b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58da6f7d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6aaa678d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d0f850,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54687fd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62a30701,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69f3e556,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a6017f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4119346d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14a204f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c9ea1d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4dd4a4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@380e33c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e3ccedb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bf523e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7469d13a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2471cfa0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a907e5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f793f15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52c22bc5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f6f0fe2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6818c0a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68479e8b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-16 16:18:17.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42be0eca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@664f49f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:19:49.186
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:19:49.187
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:19:49.187
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:19:49.187
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:19:49.187
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:20:09.187
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:09.187
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:09.187
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:09.187
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:09.187
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:20:12.857
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:12.858
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:12.858
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:12.858
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:12.858
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:20:12.858
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:22:37.572
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:22:37.572
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:22:37.572
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:22:37.572
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:22:37.572
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:22:37.572
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:23:24.787
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:24.787
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:24.787
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:24.787
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:24.787
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:24.787
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:23:34.855
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:34.855
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:34.855
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:34.855
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:34.855
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:34.855
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:23:49.567
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:49.567
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:49.567
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:49.567
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:49.567
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:23:49.567
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:25:10.369
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:25:10.369
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:25:10.369
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:25:10.369
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:25:10.369
+!MESSAGE components.naturalnumber.NaturalNumber2
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:25:10.369
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:27:26.654
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:26.654
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:26.654
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:26.654
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:26.654
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY org.eclipse.core.resources 4 380 2014-10-16 16:27:50.387
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:27:50.659
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:50.659
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:50.659
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:50.659
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:50.659
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:27:58.056
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:58.056
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:58.056
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:58.056
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:27:58.056
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:28:07.119
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:07.119
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:07.119
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:07.119
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:07.119
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:28:12.130
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:12.130
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:12.130
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:12.130
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:28:12.130
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:30:22.291
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:22.291
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:22.291
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:22.291
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:22.291
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:30:28.014
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:28.014
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:28.014
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:28.014
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:28.014
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:30:40.376
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:40.376
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:40.376
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:40.376
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:30:40.376
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:31:34.023
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:31:34.023
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:31:34.023
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:31:34.023
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:31:34.023
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:32:44.896
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:44.896
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:44.896
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:44.896
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:44.896
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:32:48.824
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:48.824
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:48.824
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:48.824
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:32:48.824
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:33:05.818
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:33:05.818
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:33:05.818
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:33:05.818
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:33:05.818
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:34:52.780
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:52.780
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:52.780
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:52.780
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:52.780
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:34:57.097
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:57.097
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:57.097
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:57.097
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:34:57.097
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:35:32.179
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:32.179
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:32.179
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:32.179
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:32.179
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:35:45.501
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:45.501
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:45.501
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:45.501
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:35:45.501
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:37:14.925
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:14.926
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:14.926
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:14.926
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:14.926
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:37:37.598
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:37.598
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:37.598
+!MESSAGE components.naturalnumber.NaturalNumber1L
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:37:53.858
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:53.858
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:37:53.858
+!MESSAGE components.naturalnumber.NaturalNumber1L
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:38:14.495
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:14.495
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:14.495
+!MESSAGE components.naturalnumber.NaturalNumber1L
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:38:34.679
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:34.679
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:34.679
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:34.679
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:34.679
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:38:42.536
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:42.536
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:42.536
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:42.536
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:38:42.536
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:39:30.320
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:30.320
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:30.320
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:30.320
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:30.320
+!MESSAGE components.simplewriter.SimpleWriter
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2014-10-16 16:39:37.684
+!MESSAGE The following classes needed for FindBugs analysis on project ArraysAndReferences were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:37.684
+!MESSAGE components.naturalnumber.NaturalNumber
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:37.684
+!MESSAGE components.naturalnumber.NaturalNumber1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:37.684
+!MESSAGE components.simplewriter.SimpleWriter1L
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2014-10-16 16:39:37.684
+!MESSAGE components.simplewriter.SimpleWriter
